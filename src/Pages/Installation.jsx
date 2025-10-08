@@ -5,25 +5,28 @@ import { FaDownload, FaStar } from "react-icons/fa";
 import Loader from "../Components/Loader/Loader";
 
 const InstalledApps = () => {
-  const [loading, setLoading] = useState(true);
   const [installedApps, setInstalledApps] = useState([]);
   const [sortOrder, setSortOrder] = useState("default");
+  const [loading, setLoading] = useState(true);
 
+  // ✅ LocalStorage থেকে ডেটা লোড হওয়া পর্যন্ত Loader দেখাবে
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 800);
-    return () => clearTimeout(timer);
-  }, []);
+    const fetchInstalledApps = () => {
+      const savedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
+      setInstalledApps(savedApps);
+      setLoading(false); // ডেটা লোড হওয়ার পর লোডার বন্ধ
+    };
 
-  useEffect(() => {
-    const savedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
-    setInstalledApps(savedApps);
+    fetchInstalledApps();
   }, []);
 
   const handleSort = (order) => {
     setSortOrder(order);
     let sortedApps = [...installedApps];
+
     if (order === "high-low") sortedApps.sort((a, b) => b.downloads - a.downloads);
     else if (order === "low-high") sortedApps.sort((a, b) => a.downloads - b.downloads);
+
     setInstalledApps(sortedApps);
   };
 
@@ -38,12 +41,14 @@ const InstalledApps = () => {
     });
   };
 
-  if (loading)
+  // ⏳ Loader — যখন পর্যন্ত ডেটা লোড না হয়
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <Loader />
       </div>
     );
+  }
 
   return (
     <div className="bg-gray-50 min-h-screen pt-24 sm:pt-28 md:pt-32 px-4 sm:px-6 lg:px-10 pb-10 transition-all">
@@ -63,7 +68,7 @@ const InstalledApps = () => {
           <select
             value={sortOrder}
             onChange={(e) => handleSort(e.target.value)}
-            className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#632EE3]"
           >
             <option value="default">Sort by Downloads</option>
             <option value="high-low">High-Low</option>
@@ -92,7 +97,7 @@ const InstalledApps = () => {
                     <h3 className="text-lg font-semibold text-gray-800">{app.title}</h3>
                     <div className="flex flex-wrap justify-center sm:justify-start items-center gap-3 text-sm text-gray-600 mt-1">
                       <div className="flex items-center gap-1">
-                        <FaDownload className="text-indigo-500" />
+                        <FaDownload className="text-[#632EE3]" />
                         {app.downloads.toLocaleString()}
                       </div>
                       <div className="flex items-center gap-1">

@@ -10,21 +10,21 @@ import "react-toastify/dist/ReactToastify.css";
 const InstallationDetails = () => {
   const { id } = useParams();
   const apps = useAppData();
+
   const [loading, setLoading] = useState(true);
   const [app, setApp] = useState(null);
   const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      const foundApp = apps.find((a) => a.id === parseInt(id));
-      setApp(foundApp || null);
+    if (!apps || apps.length === 0) return;
 
-      const installed = JSON.parse(localStorage.getItem("installedApps") || "[]");
-      setIsInstalled(installed.some((item) => item.id === parseInt(id)));
+    const foundApp = apps.find((a) => a.id === parseInt(id));
+    setApp(foundApp || null);
 
-      setLoading(false);
-    }, 600);
-    return () => clearTimeout(timer);
+    const installed = JSON.parse(localStorage.getItem("installedApps") || "[]");
+    setIsInstalled(installed.some((item) => item.id === parseInt(id)));
+
+    setLoading(false);
   }, [apps, id]);
 
   if (loading) {
@@ -47,13 +47,22 @@ const InstallationDetails = () => {
 
   const handleInstallApp = () => {
     const installed = JSON.parse(localStorage.getItem("installedApps") || "[]");
+
     if (installed.some((item) => item.id === app.id)) {
-      toast.info("⚙️ This app is already installed!", { position: "top-center", autoClose: 2000, theme: "colored" });
+      toast.info("⚙️ This app is already installed!", {
+        position: "top-center",
+        autoClose: 2000,
+        theme: "colored",
+      });
       setIsInstalled(true);
     } else {
       installed.push(app);
       localStorage.setItem("installedApps", JSON.stringify(installed));
-      toast.success("✅ App installed successfully!", { position: "top-center", autoClose: 2000, theme: "colored" });
+      toast.success("✅ App installed successfully!", {
+        position: "top-center",
+        autoClose: 2000,
+        theme: "colored",
+      });
       setIsInstalled(true);
     }
   };
@@ -95,31 +104,46 @@ const InstallationDetails = () => {
               onClick={handleInstallApp}
               disabled={isInstalled}
               className={`mt-5 px-5 py-2 rounded-lg font-semibold transition w-full md:w-auto
-                ${isInstalled ? "bg-gray-400 cursor-not-allowed text-white" : "bg-[#632EE3] hover:bg-[#5225bf] text-white"}`}
+                ${
+                  isInstalled
+                    ? "bg-gray-400 cursor-not-allowed text-white"
+                    : "bg-[#632EE3] hover:bg-[#5225bf] text-white"
+                }`}
             >
               {isInstalled ? "✅ Installed" : `Install Now (${app.size} MB)`}
             </button>
           </div>
         </div>
 
-        {/* Ratings Chart */}
         <div className="mt-10">
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 text-center md:text-left">Ratings</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 text-center md:text-left">
+            Ratings
+          </h2>
           <div className="bg-[#f8f8f8] p-4 rounded-md shadow-inner">
             <ResponsiveContainer width="100%" height={250}>
-              <BarChart data={app.ratings}>
-                <XAxis dataKey="name" />
-                <YAxis />
+              <BarChart
+                data={app.ratings}
+                layout="vertical"
+                margin={{ top: 20, right: 30, left: 50, bottom: 20 }}
+              >
+                <XAxis type="number" />
+                <YAxis
+                  dataKey="name"
+                  type="category"
+                  width={70}
+                  tick={{ fontSize: 13, fill: "#555" }}
+                />
                 <Tooltip />
-                <Bar dataKey="count" fill="#632EE3" radius={[5, 5, 0, 0]} />
+                <Bar dataKey="count" fill="#632EE3" barSize={20} radius={[0, 5, 5, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Description */}
         <div className="mt-10">
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2 text-center md:text-left">Description</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2 text-center md:text-left">
+            Description
+          </h2>
           <p className="text-gray-700 leading-relaxed">{app.description}</p>
         </div>
       </div>

@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from 'react'
 import Banner from '../Components/Banner/Banner'
 import StatsSection from '../Components/Stats/Stats'
 import TrandingApps from '../Components/TrandingApps/TrandingApps'
 import Loader from '../Components/Loader/Loader'
+import useAppData from '../Hooks/useAppData'
 
 const Home = () => {
- const [loading, setLoading] = useState(true);
+const apps = useAppData();
 
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 800);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) return <Loader />;
+  if (!apps || apps.length === 0) {
+    return (
+      <div className="min-h-screen flex justify-center items-center bg-[#f5f5f5]">
+        <Loader />
+      </div>
+    );
+  }
   return (
     <div>
         <Banner></Banner>
