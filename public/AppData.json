@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/images/apps/app13.png",
+    "image": "https://imgs.search.brave.com/-Vfi_Tq9F7rk3MSJbYVOxiEnj5m2LfPQ9P-UooBDLXU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvNTAwcC84/OS8zOC9mb29kLXRh/bGstbG9nby1jaGF0/LWZvcmstdmVjdG9y/LTM1ODM4OTM4Lmpw/Zw",
     "title": "DocuScan",
     "companyName": "SmartDocs Inc",
     "description": "Instantly scan and convert documents to PDF using your phone camera.",
