@@ -13,14 +13,16 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className='flex w-[60%] uppercase gap-6 font-medium text-[#000]'>
-                    <NavLink>Home</NavLink>
-                    <NavLink>Apps</NavLink>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/apps'>Apps</NavLink>
                     <NavLink >Installation</NavLink>
                    
                 </ul>
             </div>
             <div className='flex w-[20%] justify-end gap-3'>
-             <Navbutton btntext={"Contribute"}></Navbutton>
+            <a href="https://github.com/pritom-dey1" target='_blank'>
+               <Navbutton btntext={"Contribute"}></Navbutton>
+            </a>
             </div>
         </div>
     </div>

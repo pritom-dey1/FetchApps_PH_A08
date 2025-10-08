@@ -9,3 +9,7 @@ p{
 a{
   font-family: poppins;
 }
+.btn-bg{
+  background: #632EE3;
+background: linear-gradient(164deg, rgba(99, 46, 227, 1) 0%, rgba(159, 98, 242, 1) 57%);
+}

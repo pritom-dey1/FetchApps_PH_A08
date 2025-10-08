@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://imgs.search.brave.com/MINHqJk9DlUBTRc6_O9masLpwPMEVEr652dg8p0JvBg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2I5Lzgz/LzcyL2I5ODM3MmQ1/MDlkMjI4M2ZjNjQ5/NjcxY2Q3ZTE5NmQ4/LmpwZw",
+    "title": "SnapPic",
+    "companyName": "PixelSoft",
+    "description": "AI-powered photo editor with instant filters and background remover.",
+    "size": 45,
+    "reviews": 21800,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://imgs.search.brave.com/8DDZaqoKFIJL_0m1PPWId7Vch0p7o3_4ygpaejperO0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvaW9zLTctc3R5/bGUtbWV0cm8tdWkt/aWNvbnMvNTEyL01l/dHJvVUlfVGFzay5w/bmc",
+    "title": "TaskMate",
+    "companyName": "FlowWorks",
+    "description": "Smart to-do and habit tracker designed to boost your productivity.",
+    "size": 29,
+    "reviews": 13500,
+    "ratingAvg": 4.4,
+    "downloads": 880000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6100 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://imgs.search.brave.com/4ZlwATC8EMHZCk378HeaV_Tug-L6tXiIr_Mv5o-ANPU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/NDQ2MDc3Njg1N2Uz/NjFkNGNkMjVhMTYv/NjQ0NjExNDA2YTFi/Y2MwY2RkNjcxNDAw/X3R1bmVmbG93X2Fw/cF9pY29uXzIucG5n",
+    "title": "TuneFlow",
+    "companyName": "MelodyLabs",
+    "description": "Stream millions of songs with personalized recommendations.",
+    "size": 63,
+    "reviews": 78000,
+    "ratingAvg": 4.8,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 17500 },
+      { "name": "5 star", "count": 46000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://imgs.search.brave.com/4024z6kBdaQkwlc1TWgHCMLhsbTt5MNZpP2FGkFFWnE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvZml0bmVzcy1z/cG9ydC1wZW9wbGUt/bGluZS1hcnQtb3V0/bGluZS1sb2dvLWlj/b25fNTg3ODQzLTI1/Ny5qcGc_c2VtdD1h/aXNfaHlicmlkJnc9/NzQwJnE9ODA",
+    "title": "FitLife",
+    "companyName": "ActivePulse",
+    "description": "Personal fitness and meal planner with AI calorie tracking.",
+    "size": 54,
+    "reviews": 28600,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 15200 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://imgs.search.brave.com/cEU3Vbzk80KsbqLQFwdO49gctHdtcvWiDYl8o3PurIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTUzMTg3NzYvZmls/ZS9vcmlnaW5hbC1h/Zjg0YzQ1NDNhOWYz/ZjQwNmMyMDMwZDNi/YTQ4ZDc5Yi5wbmc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy",
+    "title": "NewsEdge",
+    "companyName": "InfoCast Media",
+    "description": "Get real-time news curated from trusted sources across the globe.",
+    "size": 38,
+    "reviews": 16300,
+    "ratingAvg": 4.3,
+    "downloads": 930000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 7300 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://imgs.search.brave.com/OUe6jUCO6dOdG4uwK-dSrzyZsSBpGXKkJYQdZbBwK4U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFHdE5B/VnFfWWsvMS8wLzE2/MDB3L2NhbnZhLW9y/YW5nZS1hbmQtd2hp/dGUtc2ltcGxlLW9u/bGluZS1zaG9wLWxv/Z28taTR3SmRla3pK/NzQuanBn",
+    "title": "ShopSmart",
+    "companyName": "DealHub",
+    "description": "Find best online deals and coupons across 1000+ stores.",
+    "size": 33,
+    "reviews": 9600,
+    "ratingAvg": 4.2,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://imgs.search.brave.com/GLDMRkPo3qycqlCO5uMffkJpjuzroKYZVS225LFMDYI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/Ly8xMFB5RUZFY2ZG/RmZUajNtdG14V3NF/Z1lVOXc9LzB4MDox/NTE2eDE1MTYvZml0/LWluLzUwMHg1MDAv/OTlkZXNpZ25zLWNv/bnRlc3RzLWF0dGFj/aG1lbnRzLzExOC8x/MTg3NTEvYXR0YWNo/bWVudF8xMTg3NTEz/MzY",
+    "title": "StudyPro",
+    "companyName": "EduVerse",
+    "description": "Online learning app with notes, quizzes, and live mentorship.",
+    "size": 58,
+    "reviews": 22900,
+    "ratingAvg": 4.7,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://imgs.search.brave.com/XuhHhyKAknrnN3lJwSNcpNSTP0kkM-nb96Z1o9rjWVU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTY4ODU1NzQvZmls/ZS9vcmlnaW5hbC0z/MzdlOWY4NGU4ODZh/OTA0ZDYxZDg0ZWIz/NTdmMmIxOC5wbmc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy",
+    "title": "TravelMate",
+    "companyName": "GoExplore",
+    "description": "Plan your trips and discover hidden destinations worldwide.",
+    "size": 41,
+    "reviews": 15400,
+    "ratingAvg": 4.6,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4700 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://imgs.search.brave.com/hG9FmRkLLVmz0UjqFQJQt-gfeAxjs7HtY5ragUV8nag/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/Y3J5cHRvLWNvaW4t/Yml0Y29pbi1sb2dv/LW5ldy1kZXNpZ25f/NDgzNTM3LTQ3ODMu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw",
+    "title": "CryptoGuard",
+    "companyName": "FinTech Labs",
+    "description": "Securely manage crypto wallets, track prices and trade instantly.",
+    "size": 50,
+    "reviews": 34200,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 18100 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://imgs.search.brave.com/qr22iC0p3AOC06yZo_lalAzcx0ZvthgWoMCKRWJleyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzQxMTUyNS5qcGc",
+    "title": "NoteEase",
+    "companyName": "LiteTools",
+    "description": "Lightweight note-taking app with sync and markdown support.",
+    "size": 25,
+    "reviews": 8600,
+    "ratingAvg": 4.5,
+    "downloads": 630000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://imgs.search.brave.com/clNTQlFBW66d0ZN_wJgqR7jNs5xxJfPKr5K27Eiy37w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZmLzdh/LzllLzZmN2E5ZTRl/NThhY2VlYTU3M2Vl/NDgxYjczNWE1YzNm/LmpwZw",
+    "title": "MindZen",
+    "companyName": "CalmSpace",
+    "description": "Meditation and mindfulness app with soothing soundscapes.",
+    "size": 47,
+    "reviews": 19200,
+    "ratingAvg": 4.7,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://imgs.search.brave.com/NiCSdqzTzo7OGKPq8mCaWFn-hog3d9RIv0nQv7ir9og/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MTI5Mjg4NDEvZmls/ZS9vcmlnaW5hbC0w/YzI2NGQ4NTg4MDIx/MGUwYzg4MzA1MDQz/MzQwMDRhMS5qcGc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy",
+    "title": "GameBox",
+    "companyName": "PlayVerse",
+    "description": "All-in-one arcade with hundreds of free casual games.",
+    "size": 82,
+    "reviews": 45800,
+    "ratingAvg": 4.3,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 3900 },
+      { "name": "3 star", "count": 7100 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 21200 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "/images/apps/app13.png",
+    "title": "DocuScan",
+    "companyName": "SmartDocs Inc",
+    "description": "Instantly scan and convert documents to PDF using your phone camera.",
+    "size": 36,
+    "reviews": 17800,
+    "ratingAvg": 4.6,
+    "downloads": 940000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://imgs.search.brave.com/KPFp0ha21bM3e1yQuH5sDOoWRD6REmltVZKrZ7mRz18/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/Ly9Rbi1YUlE4aXVj/LWV2ZlpqQy1QSlZK/UGZpcjQ9LzIxOHgx/Nzc6MTYzMngxNTkx/L2ZpdC1pbi81MDB4/NTAwLzk5ZGVzaWdu/cy1jb250ZXN0cy1h/dHRhY2htZW50cy83/Mi83MjkzOS9hdHRh/Y2htZW50XzcyOTM5/NDEx",
+    "title": "Budgetly",
+    "companyName": "FinEase",
+    "description": "Track your income and expenses visually with smart insights.",
+    "size": 31,
+    "reviews": 8800,
+    "ratingAvg": 4.4,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://imgs.search.brave.com/332a0H5sBlDlsN-uJyZrvztZ_l0wKqRa3YmUh3-pYmk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS12ZWN0/b3IvYXBwbGUtd2Vh/dGhlci1hcHAtaWNv/bi1sb2dvLXZlY3Rv/cl85NTI0MTUtMTY3/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDAmcT04MA",
+    "title": "Weatherly",
+    "companyName": "SkyWatch",
+    "description": "Live weather forecasts with animated radar and alerts.",
+    "size": 28,
+    "reviews": 15600,
+    "ratingAvg": 4.3,
+    "downloads": 840000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4300 },
+      { "name": "5 star", "count": 7100 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://imgs.search.brave.com/5RUbkxoVtylsjLA1juT5sDssHUPbHVXjxXA_omlAvak/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/L3A4M1kxRFdsV182/eE5SVXpPRWJ5aFlo/TTBRRT0vMTUweDE1/MDoxMzUweDEzNTAv/NTAweDUwMC90b3Av/c21hcnQvOTlkZXNp/Z25zLWNvbnRlc3Rz/LWF0dGFjaG1lbnRz/LzgwLzgwNDMwL2F0/dGFjaG1lbnRfODA0/MzAxOTE",
+    "title": "LangGo",
+    "companyName": "LinguaTech",
+    "description": "Learn 30+ languages with AI pronunciation and daily challenges.",
+    "size": 62,
+    "reviews": 22100,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 12800 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://imgs.search.brave.com/Ok0xOLqmuVKXHlQ6B1hAAswK_huHx5Cc6p3-EiNSFMM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/L29KZlhCeG5WZE14/QUJMVHBzcTQ2S0xk/R09Xcz0vMTk0eDIy/MToxODI2eDE4NTMv/NTAweDUwMC90b3Av/c21hcnQvOTlkZXNp/Z25zLWNvbnRlc3Rz/LWF0dGFjaG1lbnRz/LzkxLzkxNTg2L2F0/dGFjaG1lbnRfOTE1/ODYzNTg",
+    "title": "SafeVault",
+    "companyName": "SecureTech",
+    "description": "Password manager and data vault with biometric authentication.",
+    "size": 44,
+    "reviews": 11900,
+    "ratingAvg": 4.7,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://imgs.search.brave.com/gkfGITjuTsDL5Z7KqfrO1Aam4gcO--V9SxRuIpWJiwo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFNG1F/Vk5ITXcvMi8wLzE2/MDB3L2NhbnZhLXB1/cnBsZS0mLWdyZWVu/LXNpbXBsZS1jb3Jw/b3JhdGUtbG9nby1R/VEhMRklKREViVS5q/cGc",
+    "title": "Readify",
+    "companyName": "BookVerse",
+    "description": "Read and download eBooks and audiobooks from global authors.",
+    "size": 72,
+    "reviews": 32400,
+    "ratingAvg": 4.6,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 1700 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 16400 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://imgs.search.brave.com/3bkI0xDHOu2ymMydj5aHfeZYfo41BxzcJvaOebjlZ74/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtcGxhdGZvcm0u/OTlzdGF0aWMuY29t/Ly9Mb2g4VWg5dFk2/SnNlZ20wQUtFNDIw/UUhWNGM9LzQ2OHg3/MDE6MTE2MngxMzk1/L2ZpdC1pbi81MDB4/NTAwLzk5ZGVzaWdu/cy1jb250ZXN0cy1h/dHRhY2htZW50cy8z/Ny8zNzU5My9hdHRh/Y2htZW50XzM3NTkz/OTkz",
+    "title": "StreamBox",
+    "companyName": "ViewNow",
+    "description": "Watch movies and shows instantly in HD, with offline downloads.",
+    "size": 95,
+    "reviews": 68400,
+    "ratingAvg": 4.5,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4800 },
+      { "name": "3 star", "count": 8800 },
+      { "name": "4 star", "count": 15800 },
+      { "name": "5 star", "count": 35600 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://imgs.search.brave.com/P6iyL1AYLrEdzMycmJbhrgW_N6xq-sM3w78Ek17rRDE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvNTAwcC8y/NS83Ny9jaGF0LWNv/bW11bmljYXRpb24t/bG9nby1pY29uLXZl/Y3Rvci0zOTM5MjU3/Ny5qcGc",
+    "title": "ChatWave",
+    "companyName": "Connectify",
+    "description": "Instant messaging app with group chat, video call, and media sharing.",
+    "size": 67,
+    "reviews": 50200,
+    "ratingAvg": 4.6,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 2600 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 5800 },
+      { "name": "4 star", "count": 13200 },
+      { "name": "5 star", "count": 25200 }
+    ]
+  }
+]
