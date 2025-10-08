@@ -9,12 +9,11 @@ const InstalledApps = () => {
   const [sortOrder, setSortOrder] = useState("default");
   const [loading, setLoading] = useState(true);
 
-  // ✅ LocalStorage থেকে ডেটা লোড হওয়া পর্যন্ত Loader দেখাবে
   useEffect(() => {
     const fetchInstalledApps = () => {
       const savedApps = JSON.parse(localStorage.getItem("installedApps") || "[]");
       setInstalledApps(savedApps);
-      setLoading(false); // ডেটা লোড হওয়ার পর লোডার বন্ধ
+      setLoading(false); 
     };
 
     fetchInstalledApps();
@@ -41,7 +40,6 @@ const InstalledApps = () => {
     });
   };
 
-  // ⏳ Loader — যখন পর্যন্ত ডেটা লোড না হয়
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
